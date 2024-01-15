@@ -11,7 +11,7 @@ def register(request):
     return HttpResponse("Register")
 
 def login(request):
-    return HttpResponse("Login")
+    return render(request, 'base_app/index.html')
 
 
 # Create your views here.

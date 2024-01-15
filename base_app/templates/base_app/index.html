@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/normalize.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <title>Gestor de tareas</title>
+</head>
+<body>
+    <header>
+        <div class="title-bg">
+            <h1 class="title">Bienvenido al gestor de tareas</h1>
+            <span class="title">Dedicado a estudiantes, mantente organizado!</span>
+        </div>
+    </header>
+
+    <main>
+
+        <form id="login">
+
+            <h2>Inicia sesion</h2>
+            <div class="form-bg">
+                <fieldset>
+                    <legend>Ingresa tus datos</legend>
+                    <div>
+                        <label for="username">Usuario: </label>
+                        <input type="text" placeholder="Usuario">
+                    </div>
+                    <div>
+                        <label for="password">Contraseña: </label>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+
+                    <input type="submit" value="Iniciar sesion">
+                </fieldset>
+            </div>
+
+            <a href="register.html">No tienes una cuenta?</a>
+        </form>
+
+
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
