@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(94, 94, 94);
+    background-image: url(/css/image/login-background.jpg);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+form {
+    align-items: center;
+    font-size: 1cm;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.boton {
+    background-color: rgb(85, 85, 85);
+    color: red;
+    width: 100%;
+}
+
+.form-group {
+    color: greenyellow;
+}
+
+.form-control {
+    background-color: black;
+}
